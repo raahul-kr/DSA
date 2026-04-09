@@ -1,1 +1,8 @@
+Since the 271. Encode and Decode Strings is a "premium locked problem🥲" i will do the alternative one:
 
+535. Encode and Decode TinyURL (Medium) - Focuses on the same concept of mapping and retrieving strings.
+394. Decode String (Medium) - Focuses on parsing patterns within strings, which is a key part of the decoding logic.
+443. String Compression (Medium) - Helps you practice modifying string formats and counting characters.
+
+Bonus : But in Lintcode website i can practice the premium locked question😎
+url : https://www.lintcode.com/problem/659/description
