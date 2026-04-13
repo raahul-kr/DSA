@@ -1,0 +1,27 @@
+#include<iostream>
+#include<unordered_set>
+using namespace std;
+int main(){
+    unordered_set<int>s;
+    s.insert(2);
+    s.insert(3);
+    s.insert(1);
+    s.insert(5);
+    s.insert(6);
+    s.insert(7);
+    s.insert(8);
+    s.insert(8);
+    s.insert(8);
+    s.erase(8);
+    cout<<s.size()<<endl;
+    int target = 2;
+    // s.find() -> it serches in the set and if it is not found then it return the last element
+    if(s.find(target)!=s.end()){  // this statement means target exists
+        cout<<"exits"<<endl;
+    }
+
+    for(int ele: s){
+        cout<<ele<<" ";
+    }
+}
+
